@@ -1,0 +1,149 @@
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-top: 15%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom:0px;
+	font-family: Quicksand;
+	font-weight: 300;
+	background-color: #f4f5f5;
+}
+
+.header {
+	text-align: right;
+	font-size: 125%;
+	display: inline-block;
+	min-width: 1060px;
+	width: 100%;
+	position: fixed;
+	height: 153px;
+	top: 0;
+	z-index: 1;
+}
+
+.logo {
+	color: black;
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+	background-color: #f4f5f5;
+	margin-left: 3%;
+	height: 153px;
+	width: 150px;
+	float: left;
+}
+
+.menu-list {
+	list-style-type: none;
+	padding-top: 53px;
+	height: 100px;
+	padding-right: 20px;
+}
+
+.menu-item {
+	display: inline;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+
+.menu-item:hover, .menu-item-current:hover {
+	display: inline;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	background-color: #f4f5f5;
+	opacity: 1;
+	padding-top: 73px;
+	padding-bottom: 55px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.menu-item-current {
+	display: inline;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 73px;
+	padding-bottom: 55px;
+	background-color: #f4f5f5;
+	opacity: 0.75;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.menu-link:link, .menu-link:visited {
+	text-decoration: none;
+	color: #f4f5f5;
+	padding-top: 73px;
+	padding-bottom: 75px;
+}
+
+.menu-link-current:link, .menu-link-current:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.menu-link:hover {
+	color: black;
+}
+
+.menu-link:active, .menu-link-current:active {
+	color: red;
+}
+
+.page {
+	position: relative;
+}
+
+.footer {
+	position: absolute;
+	width: 100%;
+	
+}
+
+.footer-img {
+	background-image: url("../images/footer.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	filter: invert(100%);
+	min-height: 175px;
+}
+
+.footer-info {
+	background-color: #f4f5f5;
+	margin-top: 0px;
+	margin-bottom: -16px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	width: 100%;
+}
+
+.footer-contact {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.icon {
+	text-align: right;
+	padding-right: 25px;
+}
+
+.footer-list {
+	list-style-type: none;
+	display: inline-grid;
+}
+
+.footer-link:link, .footer-link:visited {
+	text-decoration: none;
+}
+
+.footer-copy {
+	text-align: center;
+	font-size: 75%;
+	margin-top: 15px;
+	color: #f4f5f5;
+	background-color: #00000075;
+}
