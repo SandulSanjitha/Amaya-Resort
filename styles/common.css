@@ -2,7 +2,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	margin-top: 10%;
+	margin-top: 185px;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom:0px;
@@ -100,7 +100,6 @@ body {
 .footer {
 	position: absolute;
 	width: 100%;
-	
 }
 
 .footer-img {
@@ -138,6 +137,16 @@ body {
 
 .footer-link:link, .footer-link:visited {
 	text-decoration: none;
+	color: black;
+}
+
+.footer-link:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.footer-link:active {
+	color: red;
 }
 
 .footer-copy {
