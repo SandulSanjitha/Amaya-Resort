@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<title>Rooms & Suites</title>
+		<!--CSS Stylesheets-->
+		<link rel="stylesheet" type="text/css" href="styles/common.css">
+		<link rel="stylesheet" type="text/css" href="styles/content.css">
+
+		<!-- Fonts -->
+		<!-- Menu -->
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+		<!-- icon -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+	<!-- Header -->
+		<div class="header">
+			<a href="home.html"><div class="logo"></div></a>
+
+			<ul class="menu-list">
+				<li class="menu-item-current"><a href="home.html" class="menu-link-current">Home</a></li>
+				<li class="menu-item"><a href="" class="menu-link">Rooms & Suites</a></li>
+				<li class="menu-item"><a href="" class="menu-link">Restaurant</a></li>
+				<li class="menu-item"><a href="" class="menu-link">Facilities</a></li>
+				<li class="menu-item"><a href="" class="menu-link">Activities</a></li>
+				<li class="menu-item"><a href="" class="menu-link">Offers</a></li>
+			</ul>
+		</div>
+	
+	<!--Content-->
+	<div>
+		<p class="topic">Rooms & Suites</p>
+		<p style="text-align:center;">Our Deluxe rooms to Presidential suites are perfect idylls, 
+								  designed to ensure that you receive a restful stay.<br>
+								  Accompanied with rapid room service, our team at the Amaya Resort, Tangalle
+								  takes pride in satisfying your requests promptly.</p>
+	
+		<div class="boxleft">
+			<img src="images/DeluxeRoom.jpg" width="100%" height="400px">
+			<p class="boxtext">Deluxe Room</p>
+			<p class="text">Immerse in the relaxation offered at the fully equipped Deluxe room with modern furnishing. 
+							The room offers the choice between a plush king-sized bed or twin beds.</p>
+			<span class="material-icons" style="margin-left:150px;">aspect_ratio</span>
+			<span class="material-icons" style="margin-left:150px;">groups</span>
+			<span class="material-icons" style="margin-left:150px;">king_bed</span><br>
+		
+			<table border="0">
+				<tr>
+					<td style="text-align:center; width:200px;">43m<sup>2</sup></td>
+					<td style="text-align:center; width:145px;">4 Adults</td>
+					<td style="text-align:center; width:215px;">2 Double Beds</td>
+				</tr>
+			</table>
+			<br><br>
+			<p style="margin-left:100px; line:height:50%;">Starting From</p>
+			<p style="margin-left:100px; font-size:30px;">LKR 18,000<small>/per night</small> &#160; &#160;
+			<input type="button" value="Book Now" class="button"></p>
+		</div>
+	
+		<div class="boxright">
+			<img src="images/JuniorSuite.jpg" width="100%" height="400px">
+			<p class="boxtext">Junior Suite</p>
+			<p class="text">The Junior Suite embodies the latest technology with graceful decor to create a serene ambience.
+							The water of the Jacuzzi invites you to enjoy a relaxing soak. The suite provides comfortable.</p>
+			<span class="material-icons" style="margin-left:150px;">aspect_ratio</span>
+			<span class="material-icons" style="margin-left:150px;">groups</span>
+			<span class="material-icons" style="margin-left:150px;">king_bed</span><br>
+		
+			<table border="0">
+				<tr>
+					<td style="text-align:center; width:200px;">67m<sup>2</sup></td>
+					<td style="text-align:center; width:145px;">3 Adults</td>
+					<td style="text-align:center; width:215px;">Double Beds</td>
+				</tr>
+			</table>
+			<br><br>
+			<p style="margin-left:100px; line:height:50%;">Starting From</p>
+			<p style="margin-left:100px; font-size:30px;">LKR 25,500<small>/per night</small> &#160; &#160;
+			<input type="button" value="Book Now" class="button"></p>
+		</div>
+	
+		<div class="boxleft">
+			<img src="images/PremierSuite.jpg" width="100%" height="400px">
+			<p class="boxtext">Premier Suite</p>
+			<p class="text">From corner seating area of your Premium Suite, witness nature at its best.
+							The kitchenette is perfect to whip up a dish you are craving. 
+							In the bathroom, enjoy a soak in the Jacuzzi.</p>
+			<span class="material-icons" style="margin-left:150px;">aspect_ratio</span>
+			<span class="material-icons" style="margin-left:150px;">groups</span>
+			<span class="material-icons" style="margin-left:150px;">king_bed</span><br>
+		
+			<table border="0">
+				<tr>
+					<td style="text-align:center; width:200px;">95m<sup>2</sup></td>
+					<td style="text-align:center; width:145px;">4 Adults</td>
+					<td style="text-align:center; width:215px;">2 Double Beds</td>
+				</tr>
+			</table>
+			<br><br>
+			<p style="margin-left:100px; line:height:50%;">Starting From</p>
+			<p style="margin-left:100px; font-size:30px;">LKR 30,000<small>/per night</small> &#160; &#160;
+			<input type="button" value="Book Now" class="button"></p>
+		</div>
+		
+		<div class="boxright">
+			<img src="images/PandCSuite.jpg" width="100%" height="400px">
+			<p class="boxtext">Presidential & Crown Suite</p>
+			<p class="text">Enter the suite through the private elevator or entrance lounge. The sitting area is ideal to curl upon.
+						Wake up to beautifual views and luxuriate in a morning breakfast delivered to your room.</p>
+			<span class="material-icons" style="margin-left:150px;">aspect_ratio</span>
+			<span class="material-icons" style="margin-left:150px;">groups</span>
+			<span class="material-icons" style="margin-left:150px;">king_bed</span><br>
+		
+			<table border="0">
+				<tr>
+					<td style="text-align:center; width:200px;">125m<sup>2</sup></td>
+					<td style="text-align:center; width:145px;">2 Adults</td>
+					<td style="text-align:center; width:215px;">Double Bed</td>
+				</tr>
+			</table>
+			<br><br>
+			<p style="margin-left:100px; line:height:50%;">Starting From</p>
+			<p style="margin-left:100px; font-size:30px;">LKR 45,000<small>/per night</small> &#160; &#160;
+			<input type="button" value="Book Now" class="button"></p>
+		</div>
+	</div>
+	
+	<!-- Footer -->
+		<div class="footer">
+			<div class="footer-info">
+				<div class="footer-contact">
+					<div class="icon">
+						<br>
+						<i class="material-icons">place</i>
+					</div>
+					<div>
+						<address>Wellawathugoda Road<br>
+						Rekawa, Netolpitiya,<br>
+						Tangalle 82135</address>
+					</div>
+					<div class="icon">
+						<i class="material-icons">call</i>
+					</div>
+					<div>
+						<p><a href="tel:+94765489751">+94 76 548 9751</a></p>
+					</div>
+					<div class="icon">
+						<i class="material-icons">email</i>
+					</div>
+					<div>
+						<a href="mailto:info@amayaresorts.lk">info@amayaresorts.lk</a>
+					</div>
+				</div>
+					
+				<div>
+					<ul class="footer-list">
+						<li><a href="home.html" class="footer-link">Home</a></li>
+						<li><a href="" class="footer-link">Rooms & Suites</a></li>
+						<li><a href="" class="footer-link">Restaurant</a></li>
+						<li><a href="" class="footer-link">Facilities</a></li>
+						<li><a href="" class="footer-link">Activities</a></li>
+						<li><a href="" class="footer-link">Offers</a></li>
+					</ul>
+				</div>
+				<div>
+					<ul class="footer-list">
+						<li><a href="" class="footer-link">Spa</a></li>
+						<li><a href="" class="footer-link">Meetings</a></li>
+						<li><a href="" class="footer-link">Weddings</a></li>
+						<li><a href="" class="footer-link">Lost and Found</a></li>
+						<li><a href="" class="footer-link">Day Outing</a></li>
+						<li><a href="https://www.epid.gov.lk/web/index.php?option=com_content&view=article&id=228&lang=en" class="footer-link">Covid-19</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-copy">&copy Copyright 2022 - Amaya Resorts</div>
+		</div>
+	</body>
+</html>
