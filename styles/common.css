@@ -95,6 +95,17 @@ body {
 
 .page {
 	position: relative;
+	z-index: 0;
+}
+
+h1.page-heading {
+	color: #f4f5f5;
+	text-align: center;
+}
+
+hr.heading-line {
+	width: 80%;
+	border: 1.5px solid #f4f5f5;
 }
 
 .footer {
