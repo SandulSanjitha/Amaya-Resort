@@ -1,0 +1,37 @@
+body {
+	background-image: url("https://i.pinimg.com/originals/59/e7/db/59e7db224ec18b95e77502cc9a09652b.jpg");
+	
+
+}
+
+.promobg {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 350px;
+	min-width: 350px;
+	display: inline-block;
+	margin: 25px;
+
+}
+
+.promotxt {
+	color: transparent;
+	display: block;
+	padding-top: 130px;
+	padding-bottom: 132px;
+
+
+}
+
+.promotxt:hover {
+	background-color: #00000075;
+	color: #f4f5f5;
+
+}
+
+.promolink {
+	text-decoration: none;
+	text-align: center;
+
+}
