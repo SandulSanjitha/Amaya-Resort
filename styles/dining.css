@@ -1,0 +1,53 @@
+.topic
+{
+  text-align:center;
+  font-size:30px;
+  font-weight:500;	
+}
+
+.subtopic
+{
+  text-align:center;
+  font-size:27px;
+  font-weight:250;
+}
+
+.boxleft
+{
+  width:640px;
+  height:600px;
+  margin-top:50px;
+  margin-left:50px;
+  marging-right:5px;
+  border:0;
+  float:left;
+}
+
+.boxright
+{
+  width:640px;
+  height:600px;
+  margin-top:50px;
+  margin-right:50px;
+  marging-left:5px;
+  border:0;
+  float:right;
+  padding:0;
+}
+
+p.name
+{
+  font-size:30px;
+  font-family:Times New Roman;
+  color:#663399;
+}
+
+td
+{
+  padding:10px;
+}
+
+tr
+{
+  height:10px;
+}
