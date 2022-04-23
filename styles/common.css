@@ -17,7 +17,7 @@ body {
 	display: inline-block;
 	min-width: 1060px;
 	width: 100%;
-	position: fixed;
+	position: absolute;
 	height: 153px;
 	top: 0;
 	z-index: 1;
@@ -109,7 +109,7 @@ hr.heading-line {
 }
 
 .footer {
-	position: absolute;
+	position: auto;
 	width: 100%;
 }
 
