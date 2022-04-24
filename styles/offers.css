@@ -35,3 +35,29 @@ body {
 	text-align: center;
 
 }
+
+.offerbg {
+	background-color: #f4f5f5ee;
+	width: 70%;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.offerimg {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.offertxt {
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
