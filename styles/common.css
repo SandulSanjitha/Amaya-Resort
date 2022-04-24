@@ -9,7 +9,6 @@ body {
 	font-family: Quicksand;
 	font-weight: 300;
 	background-color: #f4f5f5;
-	position: relative;
 }
 
 .header {
@@ -18,7 +17,7 @@ body {
 	display: inline-block;
 	min-width: 1060px;
 	width: 100%;
-	position: fixed;
+	position: absolute;
 	height: 153px;
 	top: 0;
 	z-index: 1;
@@ -132,7 +131,7 @@ hr.heading-line {
 }
 
 .footer-info {
-	background-color: #f4f5f5;
+	background-color: #F8F8FF;
 	margin-top: 0px;
 	margin-bottom: -16px;
 	display: grid;
