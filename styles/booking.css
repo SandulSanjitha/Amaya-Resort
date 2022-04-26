@@ -1,13 +1,18 @@
+body
+{
+  background-image:url(https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60.jpg);
+}
+
 h2
 {
-  font-family:Times New Roman;
+  font-family:"Times New Roman";
   padding-left:50px;
   padding-top:30px;
 }
 
 table
 {
-  font-family:Times New Roman;
+  font-family:"Times New Roman";
   font-size:20px;
 }
  
