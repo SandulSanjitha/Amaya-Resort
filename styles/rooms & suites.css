@@ -1,0 +1,65 @@
+.topic
+{
+  text-align:center;
+  font-size:40px;
+  font-weight:500;	
+}
+
+.boxleft
+{
+  width:45%;
+  height:900px;
+  margin-top:50px;
+  margin-left:50px;
+  marging-right:5px;
+  border:1px solid black;
+  float:left;
+}
+
+.boxright
+{
+  width:45%;
+  height:900px;
+  margin-top:50px;
+  margin-right:50px;
+  marging-left:5px;
+  border:1px solid black;
+  float:right;
+}
+
+.boxtext
+{
+  text-align:center;
+  font-size:25px;
+  margin-top:40px;
+}
+
+.text
+{
+  padding:30px;
+  text-align:justify;
+}
+
+table
+{
+  margin-left:60px;
+}
+
+.button
+{
+  padding:10px; 
+  font-family:Quicksand;
+  font-size:15px;
+  vertical-align:text-middle;
+}
+
+button:link, button:visited
+{
+  background-color:white;
+  color:black;
+}
+
+button:hover, button:active
+{
+  background-color:#A9A9A9;
+}
