@@ -1,3 +1,7 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/wp4190100.jpg);
+}
+
 .topic
 {
   text-align:center;
@@ -8,23 +12,27 @@
 .boxleft
 {
   width:45%;
+  min-width: 640px;
   height:900px;
   margin-top:50px;
   margin-left:50px;
   marging-right:5px;
   border:1px solid black;
   float:left;
+  background-color: #f4f5f5dd;
 }
 
 .boxright
 {
   width:45%;
+  min-width: 640px;
   height:900px;
   margin-top:50px;
   margin-right:50px;
   marging-left:5px;
   border:1px solid black;
   float:right;
+  background-color: #f4f5f5dd;
 }
 
 .boxtext
