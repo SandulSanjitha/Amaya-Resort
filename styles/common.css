@@ -1,7 +1,7 @@
 body {
 	background-size: cover;
-	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-position: 50% 50%;
 	margin-top: 185px;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -131,7 +131,7 @@ hr.heading-line {
 }
 
 .footer-info {
-	background-color: #F8F8FF;
+	background-color: #f4f5f5;
 	margin-top: 0px;
 	margin-bottom: -16px;
 	display: grid;
