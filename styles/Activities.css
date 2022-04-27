@@ -1,15 +1,7 @@
 body {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-bottom:0px;
-	font-family: Quicksand;
-	font-weight: 300;
-
+	background-image: url("../images/activities.jpg");
 }
+
 table.center {
     margin-left: auto; 
     margin-right: auto;
@@ -18,100 +10,6 @@ table.center {
     font-size: 15px;
 }
 
-.header {
-	text-align: right;
-	font-size: 125%;
-	display: inline-block;
-	min-width: 1060px;
-	width: 100%;
-	
-	height: 500px;
-	top: 0;
-	z-index: 1;
-    background-image: url("../images/Activities.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.logo {
-	color: black;
-	background-image: url("../images/logo.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 70%;
-	background-color: #f4f5f5;
-	margin-left: 3%;
-	height: 153px;
-	width: 150px;
-	float: left;
-	
-}
-
-.menu-list {
-	list-style-type: none;
-	padding-top: 53px;
-	height: 100px;
-	padding-right: 20px;
-	
-}
-
-.menu-item {
-	display: inline;
-	padding-left: 2.5%;
-	padding-right: 2.5%;
-	
-}
-
-.menu-item:hover, .menu-item-current:hover {
-	display: inline;
-	padding-left: 2.5%;
-	padding-right: 2.5%;
-	background-color: #f4f5f5;
-	opacity: 1;
-	padding-top: 73px;
-	padding-bottom: 55px;
-	border-bottom-right-radius: 25px;
-	border-bottom-left-radius: 25px;
-}
-
-.menu-item-current {
-	display: inline;
-	padding-left: 2.5%;
-	padding-right: 2.5%;
-	padding-top: 73px;
-	padding-bottom: 55px;
-	background-color: #f4f5f5;
-	opacity: 0.75;
-	border-bottom-right-radius: 25px;
-	border-bottom-left-radius: 25px;
-}
-
-.menu-link:link, .menu-link:visited {
-	text-decoration: none;
-	color: #f4f5f5;
-	padding-top: 73px;
-	padding-bottom: 75px;
-	
-}
-
-.menu-link-current:link, .menu-link-current:visited {
-	text-decoration: none;
-	color: black;
-}
-
-.menu-link:hover {
-	color: black;
-}
-
-.menu-link:active, .menu-link-current:active {
-	color: red;
-}
-
-
-h1.page-heading {
-	color: #f4f5f5;
-	text-align: center;
-}
 
 h2 {
 	color: #000000;
@@ -144,58 +42,7 @@ hr.new2 {
    border: 1px dotted black;
  
 }
-.footer {
-	
-	width: 100%;
-}
 
-
-
-.footer-info {
-	background-color: #f4f5f5;
-	margin-top: 0px;
-	margin-bottom: -16px;
-	display: grid;
-	grid-template-columns: auto auto auto;
-	width: 100%;
-}
-
-.footer-contact {
-	display: grid;
-	grid-template-columns: auto auto;
-}
-
-.icon {
-	text-align: right;
-	padding-right: 25px;
-}
-
-.footer-list {
-	list-style-type: none;
-	display: inline-grid;
-}
-
-.footer-link:link, .footer-link:visited {
-	text-decoration: none;
-	color: black;
-}
-
-.footer-link:hover {
-	text-decoration: underline;
-	color: black;
-}
-
-.footer-link:active {
-	color: red;
-}
-
-.footer-copy {
-	text-align: center;
-	font-size: 75%;
-	margin-top: 15px;
-	color: #f4f5f5;
-	background-color: #00000075;
-}
 * {
   box-sizing: border-box;
 }
@@ -208,8 +55,8 @@ hr.new2 {
   margin-top: 100px;
   margin-bottom: 100px;
   background-image: url("../images/tennis.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+ background-size: cover;
+  background-position: 50% 50%;
 }
 .box2 {
   float: left;
@@ -247,8 +94,8 @@ hr.new2 {
   height: 500px;
   margin-bottom: 100px;
   background-image: url("../images/Beach Volleyball.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 .box5 {
   float: left;
@@ -257,8 +104,8 @@ hr.new2 {
   margin-left: 125px;
   margin-bottom: 100px;
   background-image: url("../images/Diving.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 .box6 {
   float: left;
@@ -285,8 +132,8 @@ hr.new2 {
   height: 500px;
   margin-bottom: 100px;
   background-image: url("../images/safari.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: 50% 50%;
  }
  .box9 {
   float: left;
@@ -295,8 +142,8 @@ hr.new2 {
   margin-left: 125px;
   margin-bottom: 100px;
   background-image: url("../images/yoga.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 .box10 {
   float: left;
