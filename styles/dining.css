@@ -1,8 +1,13 @@
+body {
+  background-image: url(https://wallpaperaccess.com/full/3692584.jpg);
+}
+
 .topic
 {
   text-align:center;
   font-size:40px;
-  font-weight:500;	
+  font-weight:500;
+  color: #f4f5f5;	
 }
 
 .subtopic
@@ -10,25 +15,39 @@
   text-align:center;
   font-size:27px;
   font-weight:250;
+  color: #f4f5f5;
 }
 
-.boxleft
+.bigbox {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4f5f5dd;
+  margin-top: 50px;
+  max-width: 80%;
+  min-width: 1140px;
+}
+
+.smallbox
 {
   width:640px;
   height:600px;
-  margin-top:50px;
-  margin-left:50px;
-  float:left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.boxright
-{
-  width:640px;
-  height:600px;
-  margin-top:50px;
-  margin-right:50px;
-  float:right;
-  padding:0;
+.phone:link, .phone:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.phone:hover {
+  text-decoration: underline;
+}
+
+.phone:active {
+  text-decoration: underline;
+  color: red;
 }
 
 p.name
